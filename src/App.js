@@ -6,7 +6,7 @@ import DistanceExercise from "./components/DistanceExercise";
 import squat from "./images/squat.jpg";
 import plank from "./images/planks.jpg";
 import wallSits from "./images/wall-sits.jpg";
-import running from "./images/running.jpg";
+import running from "./images/running.avif";
 import cycling from "./images/cycling.jpg";
 import pushup from "./images/pushup.avif";
 
@@ -22,7 +22,7 @@ export default function App() {
     
       { name: "Squats", 
       type: "repetition",
-      image: squat 
+      image: squat
     },
     
     { name: "Plank", 
