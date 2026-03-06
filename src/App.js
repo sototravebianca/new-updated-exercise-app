@@ -3,39 +3,45 @@ import "./App.css";
 import DurationExercise from "./components/DurationExercise";
 import RepetitionExercise from "./components/RepetitionExercise";
 import DistanceExercise from "./components/DistanceExercise";
+import squat from "./images/squat.jpg";
+import plank from "./images/planks.jpg";
+import wallSits from "./images/wall-sits.jpg";
+import running from "./images/running.jpg";
+import cycling from "./images/cycling.jpg";
+import pushup from "./images/pushup.avif";
 
 
 export default function App() {
   const [selectedExercise, setSelectedExercise] = useState(null);
 
   const exercises = [
-    { name: "Push Ups", 
-      type: "repetition",
-      image: "/images/pushup.avif" 
+    { name: "Push Ups",
+      image: pushup, 
+      type: "repetition"
     },
     
       { name: "Squats", 
       type: "repetition",
-      image: "/images/squat.jpg" 
+      image: squat 
     },
     
     { name: "Plank", 
       type: "duration",
-      image: "/images/planks.jpg" 
+      image: plank 
     },
     
     { name: "Wall Sit", 
       type: "duration",
-      image: "/images/wall-sits.jpg" 
+      image: wallSits 
     },
     
     { name: "Running", 
       type: "distance",
-      image: "/images/running.avif"
+      image: running
     },
     { name: "Cycling", 
       type: "distance",
-      image: "/images/cycling.jpg"
+      image: cycling
     }
   ];
 

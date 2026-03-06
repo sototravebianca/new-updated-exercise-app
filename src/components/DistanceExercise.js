@@ -8,6 +8,8 @@ export default function DistanceExercise({ name, goHome, image }) {
     return (
         <div>
             <h2>{name}</h2>
+
+            <img src={image} alt={name} className="exercise-image"/>
             
             <div className="rep-circle">
             {distance} miles

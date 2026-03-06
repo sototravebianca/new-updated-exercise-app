@@ -19,6 +19,8 @@ export default function RepetitionExercise({ name, goHome, image }) {
 
       <h2>Push Ups</h2>
 
+      <img src={image} alt={name} className="exercise-image"/>
+
       <div className="progress-circle">
 
         <svg width="180" height="180">
